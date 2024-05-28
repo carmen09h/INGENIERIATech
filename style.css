@@ -1,0 +1,345 @@
+body {
+    /* Color de fondo */
+    background-color:rgb(2, 29, 80); 
+    /*background: linear-gradient(#EDEEC9, #98C9A3);*/
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    font-size: 12px;
+    font-family: cursive;
+    text-align: center;
+    /*eliminar margen*/    
+}
+* {
+    /*margen*/
+    margin: 0px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+h4 {
+    /* color de texto */
+    background-image: url('/INICIO.jpeg'); 
+    color:black;
+    /* tamaño de la letra*/
+    font-size: 100px;
+    /*alto tamaño de la imagen en ancho*/
+    height: 160px;
+    /* color de marco de letra*/
+    text-shadow: 0 0 5px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*centrado del encabezado*/
+    text-align: center;
+    text-decoration: dotted;
+    font-weight: bold; 
+    padding-top: 35px;
+}
+h1 {
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+img {
+    /* cambiar tamaño de imágenes */
+    /* anchura  - pixeles (px) y porcentaje (%)*/
+    width: 24%;
+    /* bordes redondeados */
+    border-radius: 5px;
+}
+/* Para modificar CSS de un elemento en particular HTML, asignamos una clase (class)
+y esa la "llamamos" en el CSS con un punto ( . ) antes del */
+.bouquet3 {
+    width: 300px;
+    border-radius: 5px;
+}
+/* Editar div del menú */
+.menu {
+    /* Div flexible para moverse con los elementos dentro de sí */
+    display: flex;
+    /* En columna: flex-direction: column y row:colocarlos en fila*/
+    flex-direction:row;
+    /* Alinea ítems de forma centrada */
+    align-items: center;
+    color: aliceblue;
+}
+/* Anclas del menú  */
+a {
+    /* color de texto */
+    color:rgb(2, 4, 54);
+    /* vinetas - linea debajo del ancla*/
+    text-decoration:none;
+    /*tamaño de la letra*/
+    font-size: 20px;
+    /* ANCLAS COMO BOTONES */
+    /*color del boton*/
+    background-color: white;
+    padding: 10px 28px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    /*tipo de letra*/
+    font-family: fantasy;
+    gap: 15px;
+    
+}
+/*a:hover-- nos ayuda a modificar el estilo de los botones*/
+a:hover{
+    /*al colocar el cursor sobre el boton cambia de color*/
+    background-color: #73d5dc;
+    /*cambia el color de la letra*/
+    color: rgb(0, 0, 0);
+    /*letra se ponga en negritas*/
+   font-weight: bold;
+   /*cambie el estilo de la letra*/
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/*Modificacion de mi conter sobre las imagenes en html*/
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*permite separar las imagenes siempre considerando la imagen central*/
+    gap: 95px;
+    /*bajar la imagen*/
+    margin-top: 27px;
+
+}
+
+/*.container1:hover {
+}*/
+  
+.container {
+    
+    display: flex;
+/*     flex-direction: row; */
+/* align-items -- alinear verticalmente */
+    align-items: center;
+
+}
+
+.logo-flower{
+    width: 25%;
+    /* margin-right (margen de un lado, el derecho para hacer espacio) */
+    margin-right: 30px;
+    margin-left: 500px;
+}  
+/*MODIFICACION DE LOS COMPONENTES DE SOFTWARE Y HADWARE*/
+h3 {
+    color: rgb(163, 221, 225);
+    /*tipo de letra*/
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /*tamaño de la letra*/
+    font-size: 70px;
+    /*alineacion del texto a la derecha rigth y izquierda left*/
+    text-align: center;
+    text-shadow: 0 0 5px rgb(255, 255, 255); 
+}
+p{
+        font-size: 30px;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(205, 205, 205);
+        margin-bottom: 5px; 
+}
+h6 {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    /* Espacio mínimo debajo */
+    margin-bottom: 5px; 
+}
+
+.container3{
+    display: flex; /* Organiza los elementos en una fila */
+    /*justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
+    /*Separar del margen principal*/
+    margin-left: 120px;
+    gap: 50px;
+    /*bajar la imagen*/
+    margin-top: 27px;
+}
+
+h6{
+    text-align: center;
+    margin-right: 30px; /* Margen derecho para separar del elemento siguiente */
+
+}
+
+ol {
+    color: rgb(2, 253, 249);
+    font-size: 27px;
+    text-align: center;
+    margin-left: 40px;
+}
+.container8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*permite separar las imagenes siempre considerando la imagen central*/
+    gap: 95px;
+    /*bajar la imagen*/
+    margin-top: 27px;
+
+} 
+ul {
+    color: rgb(2, 253, 249);
+    font-size: 27px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+h2 {
+    /* color de texto */
+    background-image: url('/ROBOTICA.png'); 
+    color:black;
+    width: 50;
+    /* tamaño de la letra*/
+    font-size: 85px;
+    /*alto tamaño de la imagen en ancho*/
+    height: 120px;
+    /* color de marco de letra*/
+    text-shadow: 0 0 8px rgb(183, 255, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*centrado del encabezado*/
+    text-align: center;
+    text-decoration: dotted;
+    font-weight: bold; 
+    padding-top: 35px;
+}
+h1{
+    color:black;
+    text-align: left;
+    width: 80px;
+}
+h5 {
+    /* color de texto */
+    background-image: url('/REALIDAD.png'); 
+    color:black;
+    width: 50;
+    /* tamaño de la letra*/
+    font-size: 85px;
+    /*alto tamaño de la imagen en ancho*/
+    height: 120px;
+    /* color de marco de letra*/
+    text-shadow: 0 0 8px rgb(183, 255, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*centrado del encabezado*/
+    text-align: center;
+    text-decoration: dotted;
+    font-weight: bold; 
+    padding-top: 35px;
+}
+h7{
+    color:rgb(78, 255, 2);
+    text-align: left;
+    width: 50px;
+    font-family: cursive;
+}
+h8 {
+    /* color de texto */
+    background-image: url('/BIG DATA.png'); 
+    color:black;
+    width: 50;
+    /* tamaño de la letra*/
+    font-size: 85px;
+    /*alto tamaño de la imagen en ancho*/
+    height: 120px;
+    /* color de marco de letra*/
+    text-shadow: 0 0 8px rgb(183, 255, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*centrado del encabezado*/
+    text-align: center;
+    text-decoration: dotted;
+    font-weight: bold; 
+    padding-top: 35px;
+}
+h9 {
+    /* color de texto */
+    background-image: url('/IOT.png'); 
+    color:black;
+    width: 50;
+    /* tamaño de la letra*/
+    font-size: 85px;
+    /*alto tamaño de la imagen en ancho*/
+    height: 120px;
+    /* color de marco de letra*/
+    text-shadow: 0 0 8px rgb(183, 255, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*centrado del encabezado*/
+    text-align: center;
+    text-decoration: dotted;
+    font-weight: bold; 
+    padding-top: 35px;
+}
+h10 {
+    /* color de texto */
+    background-image: url('/REDES.png'); 
+    color:black;
+    width: 50;
+    /* tamaño de la letra*/
+    font-size: 85px;
+    /*alto tamaño de la imagen en ancho*/
+    height: 120px;
+    /* color de marco de letra*/
+    text-shadow: 0 0 8px rgb(183, 255, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*centrado del encabezado*/
+    text-align: center;
+    text-decoration: dotted;
+    font-weight: bold; 
+    padding-top: 35px;
+}
+h11 {
+    /* color de texto */
+    background-image: url('/CIBERSEGURIDAD.png'); 
+    color:black;
+    width: 50;
+    /* tamaño de la letra*/
+    font-size: 85px;
+    /*alto tamaño de la imagen en ancho*/
+    height: 120px;
+    /* color de marco de letra*/
+    text-shadow: 0 0 8px rgb(183, 255, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*centrado del encabezado*/
+    text-align: center;
+    text-decoration: dotted;
+    font-weight: bold; 
+    padding-top: 35px;
+}
+h12 {
+    /* color de texto */
+    background-image: url('/MACHINE.png'); 
+    color:black;
+    width: 50;
+    /* tamaño de la letra*/
+    font-size: 85px;
+    /*alto tamaño de la imagen en ancho*/
+    height: 120px;
+    /* color de marco de letra*/
+    text-shadow: 0 0 8px rgb(183, 255, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*centrado del encabezado*/
+    text-align: center;
+    text-decoration: dotted;
+    font-weight: bold; 
+    padding-top: 35px;
+}
+h13 {
+    /* color de texto */
+    background-image: url('/INTELIGENCIA.png'); 
+    color:black;
+    width: 50;
+    /* tamaño de la letra*/
+    font-size: 85px;
+    /*alto tamaño de la imagen en ancho*/
+    height: 120px;
+    /* color de marco de letra*/
+    text-shadow: 0 0 8px rgb(183, 255, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*centrado del encabezado*/
+    text-align: center;
+    text-decoration: dotted;
+    font-weight: bold; 
+    padding-top: 35px;
+}
